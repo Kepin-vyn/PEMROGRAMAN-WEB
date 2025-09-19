@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Biodata Mahasiswa</title>
+    </head>
+    <body>
+        <!-- Judul Halaman-->
+        <h1>Cevyn Eduard Imanuel Dapa Talu</h1>
+        <!-- Subjudul Biografi-->
+        <h2>Biografi</h2>
+        <!-- Paragraf Biografi-->
+        <p>Saya adalah mahasiswa yang mempelajari Ilmu Komputer di Universitas pendidikan nasional. Saya memiliki ketertarikan dalam pengembangan web dan ingin memperdalam pengetahuan dalam HTML dan CSS</p>
+
+        <!-- Subjudul Pendidikan-->
+        <h2>Pendidikan</h2>
+        <!-- Paragraf Pendidikan-->
+        <p>Saat ini saya menempuh pendidikan semester 3 pada Program Studi Teknologi Informasi yang ada di Universitas Pendidikan Nasional. Ssaya mengikuti mata kuliah Pemrograman Web yang bertujuan untuk mengembangkan skill saya pada bidang ini!.</p>
+
+        <!--Menggunakan Hyperlink-->
+        <h2>Kontak Saya</h2>
+        <p>Anda dapat menghubungi saya melalui Email ini : <a href="cevyndapatalu14@gmail.com">cevyndapatalu14@gmail.com</a></p>
+        <p>Instagram saya : <a href="https://www.instagram.com/urbro_cevyn/">urbro_cevyn</a></p>
+        <p>Github : <a href="https://github.com/Kepin-vyn" target="_blank">Kepin-vyn</a></p>
+
+        <!-- Menyisipkan Gambar-->
+        <h2>Profil Saya</h2>
+        <img src="_TPG3259.JPG" alt="Cevyn Eduard Imanuel Dapa Talu" width="500" height="auto">
+
+        <!-- Daftar Hobi dan Riwayat Pendidikan-->
+        <h2>Riwayat Pendidikan</h2>
+        <table border="1">
+            <tr>
+                <th>Jenjang</th>
+                <th>Nama Institusi</th>
+                <th>Tahun</th>
+            </tr>
+            <tr>
+                <td>SDK</td>
+                <td>Ruteng IV</td>
+                <td>2010 - 2016</td>
+            </tr>
+            <tr>
+                <td>SMP</td>
+                <td>Santo Fransiskus Xaverius Ruteng</td>
+                <td>2016 - 2019</td>
+            </tr>
+            <tr>
+                <td>SMA</td>
+                <td>Negeri 1 Langke Rembong</td>
+                <td>2019 - 2022</td>
+            </tr>
+        </table>
+        <!-- Formulir Kontak-->
+        <h2>Formulir Kontak</h2>
+        <form action="submit_form.php"  method="post">
+            <label for="name">Nama Lengkap :</label>
+            <input type="text" id="name" name="fullname" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="emailaddr" required><br><br>
+
+            <label for="name">Pesan :</label>
+            <textarea id="message" name="usermessage" rows="4" required> </textarea><br><br>
+            <button type="submit">kirim</button>
+        </form>
+    </body>
+</html>
